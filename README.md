@@ -51,6 +51,7 @@ for result in model.predict(source=rtsp_url,
                             save_frames=True # 檢測即時串流視頻時同時輸出圖像和標籤
                             ):
     pass
+```
 
 ## 注意事項
 
