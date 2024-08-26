@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 model = YOLO(r'C:\Users\limjiaquan\AppData\Local\anaconda3\envs\YOLOv8env\Lib\site-packages\ultralytics\yolov8n.pt')
 
-rtsp_url = 'rtsp://admin:tkec1234@10.47.170.116:554/cam/realmonitor?channel=1&subtype=0'
+rtsp_url = 'URL'
 for result in model.predict( source = rtsp_url, 
                save= True, 
                imgsz= 640, 
